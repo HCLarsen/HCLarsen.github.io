@@ -1,0 +1,13 @@
+body {
+  color: #333333;
+  background-color: #FFFFFF;
+}
+
+main {
+  padding: 0px 24px 48px 24px;
+}
+
+ul {
+  padding-left: 1em;
+  list-style: none;
+}
