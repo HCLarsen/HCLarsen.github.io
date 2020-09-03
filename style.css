@@ -16,6 +16,18 @@ main {
 }
 
 ul {
-  padding-left: 1em;
   list-style: none;
+}
+
+.project-list {
+  padding-left: 1em;
+}
+
+.social-icon {
+  height: 1em;
+  margin-right: 0.5em;
+}
+
+.social-media-list > li {
+  margin: 0.1em 0;
 }
