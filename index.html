@@ -6,9 +6,17 @@
     <link rel="stylesheet" href="style.css">
     <meta name="author" content="Chris Larsen">
     <meta name="description" content="Personal website for Chris Larsen, web developer specializing in Vue.">
+    <script type="text/javascript">
+      function toggleDark() {
+        var element = document.body;
+        element.classList.toggle("dark-mode");
+      }
+    </script>
   </head>
   <body>
     <main>
+      <button onclick="toggleDark()">Toggle dark mode</button>
+
       <section id="about-me">
         <h2>About Me</h2>
         <p>I'm Chris Larsen, a software developer with a focus on web and IoT technologies.</p>
