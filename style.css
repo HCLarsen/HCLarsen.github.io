@@ -11,13 +11,28 @@ body {
 }
 
 main {
-  padding: 0px 24px 48px 24px;
+  position: relative;
+  top: 56px;
+  height: calc(100vh - 56px);
+  overflow: auto;
+
+  padding-bottom: 48px;
+}
+
+main, .navbar {
+  padding-left: 24px;
+  padding-right: 24px;
 }
 
 @media (min-width: 1000px) {
-  main {
-    padding: 0px 10% 48px 10%;
+  main, .navbar {
+    padding-left: 10%;
+    padding-right: 10%;
   }
+}
+
+.btn.btn-primary {
+  border: 1px solid white;
 }
 
 ul {
